@@ -1,0 +1,70 @@
+.services-container {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  overflow: auto;
+}
+
+.paymentButton {
+  background-color: #114a9f;
+  height: 50px;
+  width: 250px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  margin-top: 40px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.paymentButton:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.paymentButton:hover {
+  cursor: pointer;
+  transition: 0.8s;
+  opacity: 0.8;
+}
+
+.table-container2 {
+  overflow-x: auto;
+  display: flex;
+  width: 80vw;
+  align-self: center;
+}
+
+.tableStats {
+  width: 100%;
+  align-self: center;
+  text-align: center;
+  border-collapse: collapse;
+  border: 1px solid black;
+  margin-top: 40px;
+  overflow-x: auto;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.title-summary-service {
+  color: #9fcc3b;
+  font-size: 2em;
+  align-self: center;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}

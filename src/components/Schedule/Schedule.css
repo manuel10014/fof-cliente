@@ -1,0 +1,178 @@
+.scheduling-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 86%;
+  overflow: auto;
+  font-family: "Montserrat", sans-serif;
+}
+
+.specific-service {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+}
+
+.option-maid-schedule:hover {
+  cursor: pointer;
+}
+
+.option-maid-schedule {
+  margin-bottom: 10px;
+}
+
+.scheduling-title {
+  margin-top: 10px;
+  color: #9fcc3b;
+  text-align: center;
+  font-size: 2.1em;
+  font-weight: bold;
+  align-self: center;
+  letter-spacing: 2px;
+}
+
+.choose-service {
+  margin-top: 10px;
+  align-self: center;
+  color: #114a9f;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.service-information {
+  margin-top: 20px;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  background-color: #9fcc3b;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.price-service {
+  color: #114a9f;
+  font-weight: bold;
+}
+
+.information-service-container {
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.white {
+  color: white;
+}
+
+.bold {
+  font-weight: bold;
+}
+.italic {
+  font-style: italic;
+}
+
+.light-green {
+  color: #9fcc3b;
+}
+
+.under {
+  text-decoration: underline;
+}
+
+.margin {
+  margin-top: 10px;
+}
+
+#here-div:hover {
+  cursor: pointer;
+}
+
+.book-button {
+  align-self: center;
+  width: 100px;
+  height: 50px;
+  color: white;
+  background-color: #9fcc3b;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.book-button:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  background-color: #b9ee48;
+}
+
+.cities-div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 300px;
+  margin-top: -150px;
+  margin-left: -200px;
+  background-color: #114a9f;
+  z-index: 200;
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  justify-content: center;
+  color: white;
+}
+
+#x {
+  background: #9fcc3b;
+  color: #fff;
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 1.3em;
+  font-weight: bold;
+  text-align: center;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  border-radius: 5px;
+  left: 370px;
+  top: 7px;
+}
+.horario-container {
+  display: flex;
+}
+
+#x:hover {
+  cursor: pointer;
+}
+
+.recurrent-date-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.possible-schedules-list {
+  display: flex;
+  flex-direction: column;
+  background-color: #114a9fb3;
+  color: white;
+  margin-top: 10px;
+  overflow-y: auto;
+  width: 90%;
+  align-self: center;
+}
+.days-week {
+  width: 10vw;
+}
+@media (max-width: 900px) {
+  .information-service-container {
+    flex-direction: column;
+  }
+
+  .horario-container {
+    display: block;
+  }
+  .days-week {
+    width: 200px;
+  }
+}

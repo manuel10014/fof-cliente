@@ -1,0 +1,85 @@
+.service-viewer-all-services {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  overflow: auto;
+}
+
+.service-viewer-service {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  align-self: center;
+}
+.service-viewer-service-selected {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  align-self: center;
+}
+.service-viewer-service-info {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.service-viewer-service-info div span {
+  color: #9ecc3b;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.service-viewer-service-green {
+  width: 100%;
+  height: 30px;
+  background-color: #9ecc3bb4;
+  display: flex;
+  align-self: center;
+  margin-bottom: 30px;
+  padding: 5px;
+}
+
+.service-viewer-service:hover {
+  transition: 0.8s;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.service-viewer-icon-container {
+  width: 30%;
+  height: 100%;
+  display: flex;
+}
+.service-viewer-icon-container img:hover {
+  cursor: pointer;
+  transition: 0.3s;
+  transform: scale(1.2);
+}
+.service-viewer-icon-container img {
+  margin-left: 20px;
+}
+#plus-icon {
+  margin-left: 120px;
+}
+.service-viewer-title {
+  text-align: center;
+  width: 100%;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.client-div {
+  margin-left: 3px;
+}
+
+.employee-div {
+  margin-left: 3px;
+}
+
+.client-div:hover {
+  cursor: pointer;
+}
+.employee-div:hover {
+  cursor: pointer;
+}

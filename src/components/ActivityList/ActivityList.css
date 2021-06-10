@@ -1,0 +1,139 @@
+.activity-container-signedin {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 40%;
+}
+
+.activity-total-title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #114a9f;
+  font-weight: bold;
+  width: 100%;
+}
+
+.all-activites {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 60%;
+
+  border-top: solid 2px lightgray;
+  border-bottom: solid 2px lightgray;
+  overflow-y: auto;
+}
+
+div.vertical-timeline.vertical-timeline--animate.vertical-timeline--one-column-left::before {
+  background-color: #9fcc3b;
+}
+.activity-description {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  white-space: pre-wrap;
+  word-break: break-all;
+  padding-bottom: 10px;
+
+  margin-top: 20px;
+  height: 30%;
+}
+
+.activity-title {
+  color: gray;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  height: 15%;
+}
+
+.activity-specific-description {
+  color: gray;
+
+  height: 70%;
+}
+
+.specific-activity-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 20%;
+  padding-left: 20px;
+  padding-top: 20px;
+  margin-bottom: 15px;
+}
+.activity-name-photo {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50%;
+}
+.activity-name {
+  margin-left: 20px;
+  margin-top: 7px;
+}
+.img-activity-camera {
+  margin-top: 7px;
+  width: 20px;
+  height: 20px;
+  margin-left: 30px;
+}
+.img-activity-camera:hover {
+  cursor: pointer;
+}
+.activity-completion-time {
+  margin-top: 10px;
+  margin-left: 50px;
+  font-size: 12px;
+}
+
+.activity-status {
+  width: 30px;
+  height: 30px;
+}
+
+.no-active-activities {
+  display: flex;
+  color: gray;
+  justify-content: center;
+  font-size: 2em;
+}
+
+.see-more {
+  text-decoration: underline;
+}
+.see-more:hover {
+  cursor: pointer;
+}
+span.vertical-timeline-element-icon.bounce-in {
+  box-shadow: 0 0 0 4px #9fcc3b !important;
+}
+
+@media (max-width: 1300px) {
+  .specific-activity-container {
+    padding-left: 0;
+  }
+  .activity-name {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 700px) {
+  .activity-container-signedin {
+    margin-top: 40%;
+    width: 100%;
+  }
+  .specific-activity-container {
+    padding-left: 20px;
+  }
+  .activity-completion-time {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .activity-container-signedin {
+    margin-top: 40%;
+  }
+}

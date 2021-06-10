@@ -1,0 +1,61 @@
+.history-services {
+  height: 86%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  overflow: auto;
+}
+
+.title-history {
+  margin-top: 45px;
+  margin-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+  color: #9fcc3b;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.specific-service-history {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.history-name {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  color: #114a9f;
+  font-weight: bold;
+  font-size: 1em;
+  margin-bottom: 5px;
+}
+.history-name:hover {
+  cursor: pointer;
+}
+
+.history-date {
+  color: gray;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+.show-more-history {
+  color: gray;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 0.8em;
+  align-self: flex-end;
+}
+
+.show-more-history:hover {
+  cursor: pointer;
+}
+
+.no-history {
+  text-align: center;
+  margin-top: 100px;
+  font-style: italic;
+  color: gray;
+  font-weight: bold;
+  font-size: 1.2em;
+}

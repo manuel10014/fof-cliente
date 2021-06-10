@@ -1,0 +1,102 @@
+.email-container {
+  background-color: #e9e5e6;
+  position: absolute;
+  display: flex;
+  z-index: 100;
+  width: 30vw;
+  height: 90vh;
+  left: 35vw;
+  bottom: 5vh;
+  flex-direction: column;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+.text-email-verfication,
+.text-email-verfication2 {
+  width: 90%;
+  align-self: center;
+  text-align: center;
+  color: #114a9f;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 2em;
+  line-height: 1.3em;
+}
+
+.text-email-verfication2 span {
+  color: #9fcc3b;
+}
+
+.login-btn-verification:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.login-btn-verification {
+  background-color: #114a9f;
+  height: 30px;
+  width: 40%;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.login-btn-verification:hover {
+  cursor: pointer;
+  transition: 0.8s;
+  opacity: 0.8;
+}
+
+.login-btns-verification {
+  display: flex;
+
+  width: 100%;
+  justify-content: center;
+
+  margin-top: 10%;
+}
+
+.text-email-verfication2 span:hover {
+  cursor: pointer;
+  transition: 0.8s;
+  opacity: 0.8;
+}
+
+@media (max-width: 1400px) {
+  .email-container {
+    width: 40vw;
+    left: 30vw;
+  }
+}
+@media (max-width: 1050px) {
+  .email-container {
+    width: 50vw;
+    left: 25vw;
+  }
+}
+
+@media (max-width: 840px) {
+  .text-register {
+    font-size: 0.7em;
+  }
+  .text-email-verfication,
+  .text-email-verfication2 {
+    font-size: 0.9em;
+  }
+  .email-container {
+    width: 70vw;
+    left: 15vw;
+  }
+
+  .header-login {
+    font-size: 0.7em;
+  }
+}
+@media (max-width: 700px) {
+  .header-login {
+    font-size: 0.5em;
+  }
+}

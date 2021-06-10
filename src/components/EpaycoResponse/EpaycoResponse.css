@@ -1,0 +1,61 @@
+.total-container {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+.table-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table-payment-response {
+  border: 1px solid black;
+  margin-top: 50px;
+}
+
+.table-payment-response td {
+  border: 1px solid black;
+  padding-right: 10px;
+}
+
+#referencia {
+  display: flex;
+  justify-content: center;
+}
+
+#fecha {
+  display: flex;
+  justify-content: center;
+}
+
+#respuesta {
+  display: flex;
+  justify-content: center;
+}
+
+#motivo {
+  display: flex;
+  justify-content: center;
+}
+
+#banco {
+  display: flex;
+  justify-content: center;
+}
+
+#recibo {
+  display: flex;
+  justify-content: center;
+}
+
+#total {
+  display: flex;
+  justify-content: center;
+}
+
+.response-btn {
+  display: inline-block;
+  margin-top: 25px;
+}

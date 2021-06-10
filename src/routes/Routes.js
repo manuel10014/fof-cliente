@@ -1,0 +1,10 @@
+export const HOME = "/";
+export const SIGNED_IN = "/signedin";
+export const SCHEDULE_SERVICE = "/calendar";
+export const SERVICES_PAY = "/servicepay";
+export const EPAYCO_RESPONSE = "/response";
+export const FORGOT_PW = "/forgotpw";
+export const CHANGE_PW = "/changepw/:userid";
+export const RESCHEDULE = "/reschedule";
+export const CHANGE_PWEMPLOYEE = "/employeechangepw/:userid";
+export const PDFVIEWER = "/pdfViewer";

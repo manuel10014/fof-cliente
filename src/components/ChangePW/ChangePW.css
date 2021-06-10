@@ -1,0 +1,33 @@
+.change-pw-btn {
+  background-color: #9fcc3b;
+  height: 35px;
+  width: 20%;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+.change-pw-btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.change-pw-btn:hover {
+  cursor: pointer;
+  transition: 0.8s;
+  opacity: 0.8;
+}
+
+.login-btns-change {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-self: center;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 850px) {
+  .change-pw-btn {
+    width: 40%;
+  }
+}
